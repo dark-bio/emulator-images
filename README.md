@@ -6,7 +6,6 @@ This repository contains the pre-built ArkOS images consumed by the [Ark Emulato
 - The images are published automatically whenever a firmware version is promoted to **release**:
   - `arkos-X.Y.Z-COMMIT-emulator-kernel.ARCH`: Linux kernel for the QEMU guest.
   - `arkos-X.Y.Z-COMMIT-emulator-initrd.ARCH.gz`: ArkOS initramfs for the QEMU guest.
-  - `IMAGE.sha256`: SHA256 digest of the sibling image asset.
 - The images are built for both `arm64` and `amd64` guests; the emulator bundles the build host's arch only.
 
 *Note: The git tags in this repository version the published images, not any source code; the firmware itself is not public currently.*
